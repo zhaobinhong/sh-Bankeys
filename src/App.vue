@@ -16,7 +16,7 @@
 
               <h1>
 
-                <a href="/" title="Bankeys"><img src="static/images/logo.png" alt="Bankeys" title="Bankeys"></a>
+                <a href="/" title="Bankeys"><img src="static/images/logoes/logo.png" alt="Bankeys" title="Bankeys"></a>
 
               </h1>
 
@@ -77,8 +77,8 @@
 
       <figure>
 
-        <div class="parallax-window item tp-banner-container" data-parallax="scroll" data-image-src="static/images/bg.jpg"
-             style="height: 901px;"></div>
+        <div class="parallax-window item tp-banner-container" id="homeBanner" data-parallax="scroll"
+             style="background:#26283e;height: 901px;"></div>
 
       </figure>
 
@@ -91,44 +91,53 @@
     <router-view></router-view>
 
 
-
     <footer role="footer" class="footer text-center">
 
       <div class="container">
 
-        <!-- socil-icons -->
+        <div class="col-sm-8 col-md-8 col-lg-8">
+          <p class="footer-default"></p>
+          <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 contact-default">
+            <h4>解决方案</h4>
+            <p><a href="##">eISD／eID编码</a>
+            </p>
+            <p><a href="##">应用领域</a></p>
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 contact-info">
+            <h4>新闻中心</h4>
+            <p><a href="##">新闻中心</a>
+            </p>
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 contact-info">
+            <h4>下载中心</h4>
+            <p><a href="##">下载中心</a>
+            </p>
+          </div>
 
-        <section role="socil-icons" class="socil-icons">
+          <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3 contact-info">
+            <h4>关于我们</h4>
+            <p><a href="##">公司概况</a>
+            </p>
+            <p><a href="##">联系我们</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-4 col-md-4 col-lg-4 ">
+          <p class="footer-default"></p>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 contact-default">
+            <h4><a class="opinion" href="##"><span class="pen"></span>意见反馈</a></h4>
+          </div>
 
-          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </div>
 
-          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-
-          <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-
-          <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-
-          <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-
-          <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-
-        </section>
-
-        <!-- socil-icons -->
-
-        <!-- nav -->
-
-        <nav role="footer-nav">
-
-          <a href="#">Terms of Use </a>
-
-          <a href="#">Privacy Policy</a>
-
-        </nav>
-
-        <!-- nav -->
-
-        <p class="copy">© 2017 Sartr. All rights reserved. More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">1213</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">模板</a></p>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-12 endFooter">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 contact-default">
+          <p>沪 CP 备14034910号－1｜上海市愚园路1107号6号楼5-6层</p>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 contact-default">
+          <p><a href="##"><span class="contact"></span>联系我们</a></p>
+        </div>
 
       </div>
 
@@ -150,4 +159,68 @@
     text-align: center;
     color: #2c3e50;
   }
+
+  footer {
+    color: rgba(255, 255, 255, .5);
+  }
+
+  footer h4 {
+    color: #fff;
+    font-weight: bold;
+  }
+
+  footer a, footer a:link {
+    color: rgba(255, 255, 255, .5);
+    text-decoration: none;
+  }
+
+  footer a:hover, footer a:visited, footer a:active {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .pen {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-image: url('/static/images/index/feedback.png');
+    background-repeat: no-repeat;
+    position: relative;
+    left: -10px;
+    top: 2px;
+  }
+
+  footer a.opinion {
+    color: #fff;
+  }
+
+  .endFooter{
+    background: #2f3949;
+    padding-top: 30px;
+    height: 80px;
+    line-height: 1;
+    color: #fff;
+  }
+
+  .endFooter p{
+    height: 20px;
+    line-height: 1;
+  }
+
+  .endFooter p a{
+    position: relative;
+    top: -4px;
+  }
+
+  .contact{
+    display: inline-block;
+    width: 19px;
+    height: 20px;
+    background-image: url('/static/images/index/contact.png');
+    background-repeat: no-repeat;
+    position: relative;
+    left: -10px;
+    top: 2px;
+  }
+
 </style>
