@@ -41,28 +41,28 @@
         </div>
 
         <ul class="advList text-center">
-          <li>
+          <li class="col-sm-2 col-xs-10">
             <img src="static/images/home/fast.png" alt="快捷">
             <h4>办理更快捷</h4>
             <p>所有流程在线完成</p>
             <p>过程数字化</p>
             <p>节省线下办理时间</p>
           </li>
-          <li>
+          <li class="col-sm-2 col-xs-10">
             <img src="static/images/home/safe.png" alt="安全">
             <h4>过程更安全</h4>
             <p>采用国家级加密算法</p>
             <p>客户隐私信息三重加密</p>
             <p>专利技术确保安全</p>
           </li>
-          <li>
+          <li class="col-sm-2 col-xs-10">
             <img src="static/images/home/cost.png" alt="低成本">
             <h4>可靠成本低</h4>
             <p>产品无需附加硬件</p>
             <p>依托高效智能软件</p>
             <p>最大化降低客户成本</p>
           </li>
-          <li>
+          <li class="col-sm-2 col-xs-10">
             <img src="static/images/home/features.png" alt="功能全">
             <h4>功能更全面</h4>
             <p>加入人脸识别技术</p>
@@ -83,18 +83,18 @@
         </div>
 
         <ul class="partnerQY">
-          <li class="col-md-3"><img src="static/images/home/public-security.png" alt="公安三所"></li>
-          <li class="col-md-3"><img src="static/images/home/airport.png" alt="上海机场"></li>
-          <li class="col-md-3"><img src="static/images/home/hong-yi.png" alt="红翌科技"></li>
-          <li class="col-md-3"><img src="static/images/home/da-hua.png" alt="dahua"></li>
+          <li class="col-xs-12 col-sm-6 col-md-3"><img src="static/images/home/public-security.png" alt="公安三所"></li>
+          <li class="col-xs-12 col-sm-6 col-md-3"><img src="static/images/home/airport.png" alt="上海机场"></li>
+          <li class="col-xs-12 col-sm-6 col-md-3"><img src="static/images/home/hong-yi.png" alt="红翌科技"></li>
+          <li class="col-xs-12 col-sm-6 col-md-3"><img src="static/images/home/da-hua.png" alt="dahua"></li>
 
         </ul>
 
         <ul class="partnerQY">
-          <li class="col-md-3"><img src="static/images/home/tsinghua.png" alt="清华大学"></li>
-          <li class="col-md-3"><img src="static/images/home/wuhan.png" alt="武汉大学"></li>
-          <li class="col-md-3"><img src="static/images/home/siant.png" alt="上海网络技术研究所"></li>
-          <li class="col-md-3"><img src="static/images/home/bankeys.png" alt="收付宝"></li>
+          <li class="col-xs-12 col-sm-6 col-md-3"><img src="static/images/home/tsinghua.png" alt="清华大学"></li>
+          <li class="col-xs-12 col-sm-6 col-md-3"><img src="static/images/home/wuhan.png" alt="武汉大学"></li>
+          <li class="col-xs-12 col-sm-6 col-md-3"><img src="static/images/home/siant.png" alt="上海网络技术研究所"></li>
+          <li class="col-xs-12 col-sm-6 col-md-3"><img src="static/images/home/bankeys.png" alt="收付宝"></li>
         </ul>
 
       </div>
@@ -117,7 +117,7 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  body{
+  body {
     overflow-x: -webkit-paged-y;
   }
 
@@ -170,16 +170,16 @@
     border-bottom: none;
   }
 
-  .hed{
+  .hed {
     margin-top: 5rem;
   }
 
-  .hed h3{
+  .hed h3 {
     font-size: 24px;
     color: #000;
   }
 
-  .hed p{
+  .hed p {
     font-size: 18px;
     color: #aaa;
   }
@@ -195,7 +195,7 @@
     cursor: pointer;
     border-radius: 8px;
     float: left;
-    width: 200px;
+    min-width: 200px;
     height: 260px;
     background: #f2f2f2;
     transition: all .6s;
@@ -212,30 +212,31 @@
     margin: 0 auto;
   }
 
-  .advList li h4{
+  .advList li h4 {
     font-size: 20px;
     font-weight: 600;
   }
 
-  .advList li p{
+  .advList li p {
     font-size: 16px;
     line-height: 20px;
   }
 
-  .partnerQY{
+  .partnerQY {
     overflow: hidden;
   }
-  .partnerQY li{
+
+  .partnerQY li {
     margin: 20px 0px;
     padding: 26px 0;
   }
 
-  .partnerQY li:hover{
+  .partnerQY li:hover {
     cursor: pointer;
-    box-shadow: 5px 5px 8px rgba(67, 67, 67, 0.3) inset,-5px -5px 8px rgba(67, 67, 67, 0.3) inset;
+    box-shadow: 5px 5px 8px rgba(67, 67, 67, 0.3) inset, -5px -5px 8px rgba(67, 67, 67, 0.3) inset;
   }
 
-  .partnerQY li img{
+  .partnerQY li img {
     display: inline-block;
     margin: 0 auto;
   }

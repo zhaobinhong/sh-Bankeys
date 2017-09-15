@@ -30,17 +30,17 @@
 
               <div id="navbar" class="navbar-collapse collapse">
 
-                <ul class="nav navbar-nav">
+                <ul id="navigation" class="nav navbar-nav">
 
-                  <li class="active"><a href="#headere-top" title="Home">网站首页</a></li>
+                  <li class="active"><a href="#headere-top">网站首页</a></li>
 
-                  <li class=""><a href="#section-one" title="Overview">解决方案</a></li>
+                  <li class=""><a href="#section-one">解决方案</a></li>
 
-                  <li class=""><a href="#section-two" title="Features">新闻中心</a></li>
+                  <li class=""><a href="#section-two">新闻中心</a></li>
 
-                  <li class=""><a href="#section-three" title="Pricing">下载中心</a></li>
+                  <li class=""><a href="#section-three">下载中心</a></li>
 
-                  <li class=""><a href="#section-four" title="Team">关于我们</a></li>
+                  <li class=""><a href="#section-four">关于我们</a></li>
                   <li class="col-xs-3" style="color: #fff;cursor: pointer;text-align: center;">
                     <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
                     <span class="glyphicon-class">客户端</span>
@@ -58,13 +58,23 @@
 
           <!-- hgroup -->
 
+          <div id="eidLink" class="eidLink text-left">
+            <p>
+              <a href="##">eID</a>
+              <a href="##">eID编码</a>
+            </p>
+
+          </div>
+
         </div>
 
       </div>
 
       <!-- banner Text -->
 
-      <section class="text-center">
+
+      <section id="tit" class="text-center">
+
 
         <h2>eID</h2>
 
@@ -75,7 +85,7 @@
 
       <!-- banner image -->
 
-      <figure>
+      <figure id="bak">
 
         <div class="parallax-window item tp-banner-container" id="homeBanner" data-parallax="scroll"
              style="background:#26283e;height: 901px;"></div>
@@ -174,9 +184,13 @@
     text-decoration: none;
   }
 
-  footer a:hover, footer a:visited, footer a:active {
+  .eidLink a,footer a:hover, footer a:visited, footer a:active {
     color: #fff;
     text-decoration: none;
+  }
+
+  .eidLink a:hover{
+    border-bottom: 2px solid #5895f1;
   }
 
   .pen {
@@ -221,6 +235,16 @@
     position: relative;
     left: -10px;
     top: 2px;
+  }
+
+  .eidLink{
+    display: none;
+  }
+
+  .eidLink a{
+    margin-right: 2rem;
+    font-size: 18px;
+    color: rgba(255,255,255,.7);
   }
 
 </style>

@@ -169,7 +169,7 @@ header[role="header"].header-top hgroup nav ul > li{ float:none; display:inline-
 
 header[role="header"].header-top hgroup nav ul > li > a{ color:#FFF; line-height:29px; padding-bottom:5px; padding-top:0; padding-left:11px; padding-right:12px; border-bottom:3px solid transparent;}
 
-header[role="header"].header-top hgroup nav ul > li:hover a,header[role="header"].header-top hgroup nav ul>li.active a,header[role="header"].header-top hgroup nav ul>li.active:hover a{ border-color:#6bb551; background-color:transparent!important;color:#FFF!important;}
+header[role="header"].header-top hgroup nav ul > li:hover a,header[role="header"].header-top hgroup nav ul>li.active a,header[role="header"].header-top hgroup nav ul>li.active:hover a{  background-color:transparent!important;color:#FFF!important;}
 
 header[role="header"].header-top hgroup nav ul>li>a:focus{color:#FFF;}
 
